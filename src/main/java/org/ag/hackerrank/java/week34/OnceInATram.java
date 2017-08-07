@@ -2,9 +2,6 @@
  * @(#)OnceInATram.java Jul 22, 2017 6:27:39 PM
  *
  * Copyright 2017 . All Rights Reserved.
- *
- * This software is the proprietary information of Financial Software & Systems (P) Ltd.
- * Use is subject to license terms.
  */
 package org.ag.hackerrank.java.week34;
 
