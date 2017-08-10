@@ -27,6 +27,9 @@ public class OnceInATram {
 		String result = returnLuckyNumber(input);
 		
 		System.out.println(result);
+		
+		scan.close();
+		
 	}
 
 	private static String returnLuckyNumber(int input) {
@@ -41,8 +44,7 @@ public class OnceInATram {
 		//System.out.println(input);
 		
 		String strings = String.valueOf(input);
-		
-		final int[] ints = new int[strings.length()];
+
 		for (int i = 0; i < 3; i++) {
 			leftValue += Integer.parseInt(strings.charAt(i)+"");
 		}
