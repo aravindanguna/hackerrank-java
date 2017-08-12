@@ -49,13 +49,13 @@ public class ArraysDS {
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		
-		Scanner scan = new Scanner(System.in);
+		final Scanner scan = new Scanner(System.in);
 		
-		int noOfInput = scan.nextInt();
+		final int noOfInput = scan.nextInt();
 		
-		int[] inputArray = new int[noOfInput];
+		final int[] inputArray = new int[noOfInput];
 		
 		for (int i=0;i<noOfInput;i++) {
 			inputArray[i] = Integer.parseInt(scan.next());
