@@ -48,7 +48,6 @@ public class ValidPANFormat {
 		for (String pan : list) {
 			
 			System.out.println(pan.matches(PAN_REGEX_PATTERN) ? "YES" : "NO");
-		}
-		
+		}		
 	}
 }
